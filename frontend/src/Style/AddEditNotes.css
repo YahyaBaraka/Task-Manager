@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+.add-edit-notes-modal {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.priority-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.priority-button {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    color: #333;
+    font-family: Poppins;
+}
+
+.priority-button:hover {
+    background-color: #f5f5f5;
+}
+
+.priority-button.selected {
+    background-color: #333;
+    color: #ffffff;
+    border-color: #333;
+}
+
+
+.title-input {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 0;
+    font-family: Poppins;
+}
+.input-label {
+    display: block;
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.content-area {
+    resize: vertical;
+    min-height: 80px;
+    font-family: Poppins;
+}
+
+.add-button-EditMode {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Poppins;
+}
+
+.add-button-EditMode:hover {
+    background-color: #0056b3;
+}
