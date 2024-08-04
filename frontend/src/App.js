@@ -3,8 +3,6 @@ import { useAuthContext } from './hooks/useAuthContext';
 import { useEffect } from 'react';
 
 
-// pages & components
-import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import SignUp from './pages/SignUp';
 import Login from './pages/Login';
