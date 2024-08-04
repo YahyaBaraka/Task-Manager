@@ -20,7 +20,7 @@ const getTasks = async (req, res) => {
 
 
 // create new task
-const createTask = async (req, res) => { // this should be changed but will keep the (functionality)
+const createTask = async (req, res) => { 
   const {title, description, priority, dueDate, completed} = req.body
 
   const user_id = req.user._id;
@@ -37,7 +37,7 @@ const createTask = async (req, res) => { // this should be changed but will keep
 }
 
 // delete a task
-const deleteTask = async (req, res) => { // every task should have an id
+const deleteTask = async (req, res) => { 
   const { id } = req.params;
 
   try {

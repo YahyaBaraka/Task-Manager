@@ -4,7 +4,10 @@ const app = require('../app');
 const Task = require('../models/taskModel');
 const User = require('../models/userModel');
 const jwt = require('jsonwebtoken');
-const { SECRET, mongoURI } = require('../env');
+require("dotenv").config();
+
+const SECRET = process.env.SECRET;
+const MONGO_URI = process.env.MONGO_URI;
 
 
 describe('Task API Integration', () => {
@@ -12,7 +15,7 @@ describe('Task API Integration', () => {
   let userId;
 
   beforeAll(async () => {
-    await mongoose.connect(mongoURI);
+    await mongoose.connect(MONGO_URI);
     await User.deleteMany({});
     await Task.deleteMany({});
     

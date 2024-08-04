@@ -1,6 +1,9 @@
+require("dotenv").config();
 const User = require('../models/userModel');
 const jwt = require('jsonwebtoken');
-const { SECRET } = require('../env');
+
+const SECRET = process.env.SECRET;
+
 
 
 const createToken = (mongoID) => {
