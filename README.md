@@ -20,6 +20,8 @@ Task Manager is a simple web application designed to help users manage their tas
 - Node.js
 - Express
 - MongoDB
+- Jest (for testing)
+- Supertest (for HTTP assertions)
 
 ## Prerequisites
 
