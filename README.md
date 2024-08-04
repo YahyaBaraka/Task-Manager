@@ -5,7 +5,8 @@
 A robust web application for efficient task management, allowing users to create, update, delete, and organize their tasks with ease.
 
 
-![image](https://github.com/user-attachments/assets/d2e62d2a-158e-4907-82ad-6a69b09999ad)
+![image](https://github.com/user-attachments/assets/f1bfd46a-db81-4d20-8f7a-50ba422a18d4)
+
 
 
 ## Features
