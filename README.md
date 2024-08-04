@@ -62,39 +62,39 @@ Before you begin, ensure you have the following installed:
 
 1\. Clone the repository:
 
-   ```bash
+   ```bash
 
    git clone https://github.com/YahyaBaraka/Task-Manager.git
 
    cd Task-Manager
 
-   ```
+   ```
 
 2\. Install backend dependencies:
 
-   ```bash
+   ```bash
 
    cd backend
 
    npm install
 
-   ```
+   ```
 
 3\. Install frontend dependencies:
 
-   ```bash
+   ```bash
 
    cd ../frontend
 
    npm install
 
-   ```
+   ```
 
 4\. Set up environment variables:
 
    Modify the `.env` file in the `backend` directory with the following content:
 
-   ```
+  ```
 
    PORT=4000
 
@@ -102,7 +102,7 @@ Before you begin, ensure you have the following installed:
 
    JWT_SECRET=your_jwt_secret
 
-   ```
+   ```
 
    Replace `your_mongodb_uri` and `your_jwt_secret` with your actual MongoDB connection string and a secure secret for JWT.
 
@@ -110,23 +110,20 @@ Before you begin, ensure you have the following installed:
 
 1\. Start the backend server:
 
-   ```bash
-
+   ```bash
    cd backend
 
    npm start
-
-   ```
+   ```
 
 2\. In a new terminal, start the frontend development server:
-
-   ```bash
+   
+   ```bash
 
    cd frontend
 
    npm start
-
-   ```
+   ```
 
 3\. Open your browser and navigate to `http://localhost:3000` to use the application.
 
