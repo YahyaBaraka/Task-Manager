@@ -93,15 +93,15 @@ Before you begin, ensure you have the following installed:
 
 4\. Set up environment variables:
 
-   Modify the `.env` file in the `backend` directory with the following content:
+   Create your own `.env` file in the `backend` directory with the following content:
 
   ```
 
    PORT=4000
 
-   MONGODB_URI=mongodb://your_mongodb_uri
+   MONGO_URI=mongodb://your_mongodb_uri
 
-   JWT_SECRET=your_jwt_secret
+   SECRET=your_jwt_secret
 
    ```
 
